@@ -16,7 +16,7 @@ formulario de contacto vía EmailJS.
 
 ```bash
 npm install
-npm run dev      # servidor local en http://localhost:5173/patriciaortizpsicologia-web/
+npm run dev      # servidor local en http://localhost:5173/psico-web/
 npm run build    # build de producción en dist/
 npm run preview  # sirve el build de producción localmente
 ```
@@ -66,14 +66,14 @@ en cada push a `main`.
    `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`,
    `VITE_EMAILJS_PUBLIC_KEY`.
 3. Haz push a `main`. La web quedará en
-   `https://<usuario>.github.io/patriciaortizpsicologia-web/`.
+   `https://<usuario>.github.io/psico-web/`.
 
-> El `base` en `vite.config.ts` está fijado a `/patriciaortizpsicologia-web/`. Si el repo tiene
+> El `base` en `vite.config.ts` está fijado a `/psico-web/`. Si el repo tiene
 > otro nombre, ajústalo.
 
 ### Migrar a dominio propio (futuro)
 
-1. En `vite.config.ts`, cambia `base: '/patriciaortizpsicologia-web/'` a `base: '/'`.
+1. En `vite.config.ts`, cambia `base: '/psico-web/'` a `base: '/'`.
 2. Crea `public/CNAME` con el dominio (ej. `patriciaortiz.com`).
 3. Actualiza la redirección en `public/404.html` a `/`.
 4. Configura el dominio en **Settings → Pages → Custom domain** y los registros
