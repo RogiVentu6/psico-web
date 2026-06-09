@@ -1,0 +1,210 @@
+/* ============================================================
+   Patricia Ortiz · Psicologia — estilos globales
+   Paleta sereno y calido: azules suaves sobre blanco.
+   ============================================================ */
+
+:root {
+  /* Azules */
+  --blue-deep: #2c5f7c;
+  --blue: #5b8fb0;
+  --blue-soft: #a9cce3;
+  --blue-pastel: #eaf2f8;
+  --blue-mist: #f5f9fc;
+
+  /* Neutros */
+  --white: #ffffff;
+  --cream: #fcfbf8;
+  --text: #2b3a42;
+  --text-soft: #5d6f78;
+  --border: #e3ebf1;
+
+  /* Acento calido sutil */
+  --warm: #e9c9a8;
+
+  /* Tipografia */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Nunito Sans', system-ui, -apple-system, sans-serif;
+
+  /* Layout */
+  --maxw: 1140px;
+  --radius: 18px;
+  --radius-sm: 12px;
+  --shadow-soft: 0 10px 40px -16px rgba(44, 95, 124, 0.25);
+  --shadow-card: 0 6px 28px -14px rgba(44, 95, 124, 0.28);
+  --shadow-hover: 0 18px 48px -18px rgba(44, 95, 124, 0.4);
+  --transition: 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  --nav-h: 76px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-h);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--blue-deep);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--blue-deep);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ---------- Layout helpers ---------- */
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: clamp(4rem, 9vw, 7.5rem) 0;
+  scroll-margin-top: var(--nav-h);
+}
+
+.section--tint {
+  background: linear-gradient(180deg, var(--blue-mist), var(--blue-pastel));
+}
+
+.section--cream {
+  background: var(--cream);
+}
+
+/* ---------- Section heading ---------- */
+.section-head {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto clamp(2.5rem, 5vw, 4rem);
+}
+
+.section-head__eyebrow {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 0.75rem;
+}
+
+.section-head__title {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+}
+
+.section-head__intro {
+  color: var(--text-soft);
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+.section-head__rule {
+  width: 56px;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--blue-soft);
+  margin: 1.25rem auto 0;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.8rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  border: 2px solid transparent;
+  transition: all var(--transition);
+  text-align: center;
+}
+
+.btn--primary {
+  background: var(--blue-deep);
+  color: var(--white);
+  box-shadow: var(--shadow-card);
+}
+
+.btn--primary:hover {
+  background: var(--blue);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--blue-deep);
+  border-color: var(--blue-soft);
+}
+
+.btn--ghost:hover {
+  background: var(--white);
+  border-color: var(--blue);
+  transform: translateY(-2px);
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

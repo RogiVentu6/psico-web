@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "inici": "Inici",
+    "serveis": "Serveis",
+    "estudis": "Estudis",
+    "quiSoc": "Qui soc",
+    "contacta": "Contacta",
+    "langLabel": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Psicòloga col·legiada",
+    "title": "Patricia Ortiz",
+    "subtitle": "Psicologia",
+    "tagline": "Un espai segur per cuidar la teva ment i acompanyar-te en el teu benestar emocional.",
+    "intro": "Soc psicòloga i el meu objectiu és oferir-te un acompanyament proper, professional i adaptat a tu. Treballo amb adolescents i adults que volen entendre's millor, gestionar les seves emocions i recuperar l'equilibri.",
+    "cta": "Demana cita",
+    "ctaSecondary": "Coneix-me",
+    "imageAlt": "Fotografia de Patricia Ortiz"
+  },
+  "serveis": {
+    "title": "Serveis",
+    "subtitle": "Com et puc ajudar",
+    "intro": "Aquests són alguns dels àmbits en què treballo. Cada procés és únic i s'adapta a les teves necessitats.",
+    "items": {
+      "terapiaIndividual": {
+        "title": "Teràpia individual",
+        "desc": "Acompanyament personalitzat per a adults en processos d'ansietat, depressió, autoestima o moments vitals difícils."
+      },
+      "terapiaParella": {
+        "title": "Teràpia de parella",
+        "desc": "Un espai per millorar la comunicació, resoldre conflictes i reconnectar amb la teva parella."
+      },
+      "ansietat": {
+        "title": "Ansietat i estrès",
+        "desc": "Eines pràctiques per gestionar l'ansietat, l'estrès i els atacs de pànic en el dia a dia."
+      },
+      "diagnostic": {
+        "title": "Diagnòstic i avaluació",
+        "desc": "Avaluació psicològica rigorosa per entendre què et passa i dissenyar el millor pla de treball."
+      },
+      "adolescents": {
+        "title": "Adolescents",
+        "desc": "Suport a adolescents i a les seves famílies en l'etapa de canvis, emocions i reptes propis de l'edat."
+      },
+      "online": {
+        "title": "Teràpia online",
+        "desc": "Sessions per videotrucada, amb la mateixa qualitat i confidencialitat, des d'on tu vulguis."
+      }
+    }
+  },
+  "estudis": {
+    "title": "Formació",
+    "subtitle": "Estudis i titulacions",
+    "intro": "La meva formació acadèmica i continuada que sustenta la meva pràctica professional.",
+    "items": {
+      "grau": {
+        "year": "20XX",
+        "title": "Grau en Psicologia",
+        "place": "Universitat (placeholder)"
+      },
+      "master": {
+        "year": "20XX",
+        "title": "Màster en Psicologia General Sanitària",
+        "place": "Universitat (placeholder)"
+      },
+      "postgrau": {
+        "year": "20XX",
+        "title": "Postgrau en Teràpia Cognitiu-Conductual",
+        "place": "Centre de formació (placeholder)"
+      },
+      "colegiada": {
+        "year": "20XX",
+        "title": "Col·legiada núm. XXXXX",
+        "place": "Col·legi Oficial de Psicologia"
+      }
+    }
+  },
+  "quiSoc": {
+    "title": "Qui soc",
+    "subtitle": "Una mica sobre mi",
+    "p1": "Em dic Patricia Ortiz i soc psicòloga. Des de fa anys acompanyo persones en el seu camí cap al benestar emocional, sempre des del respecte, l'escolta activa i la professionalitat.",
+    "p2": "Crec en una teràpia propera i humana, on et sentis escoltat i acompanyat sense judicis. El meu enfocament combina diferents corrents terapèutics per adaptar-me al que cada persona necessita en cada moment.",
+    "p3": "A més de la meva formació acadèmica, em formo de manera contínua en cursos i especialitzacions per oferir-te sempre les millors eines basades en l'evidència.",
+    "cursosTitle": "Cursos i especialitzacions",
+    "cursos": {
+      "c1": "Curs d'intervenció en ansietat i depressió (placeholder)",
+      "c2": "Especialització en teràpia de parella (placeholder)",
+      "c3": "Formació en mindfulness i regulació emocional (placeholder)",
+      "c4": "Curs de trauma i EMDR (placeholder)"
+    },
+    "imageAlt": "Fotografia de Patricia Ortiz al seu despatx"
+  },
+  "contacta": {
+    "title": "Contacta",
+    "subtitle": "Parlem-ne",
+    "intro": "Si tens qualsevol dubte o vols demanar cita, pots escriure'm directament o omplir el formulari. Et respondré tan aviat com pugui.",
+    "directTitle": "Contacte directe",
+    "email": "Correu electrònic",
+    "phone": "Telèfon",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "formTitle": "Envia'm un missatge",
+    "name": "Nom",
+    "namePlaceholder": "El teu nom",
+    "yourEmail": "Correu electrònic",
+    "emailPlaceholder": "el-teu-correu@exemple.com",
+    "message": "Missatge",
+    "messagePlaceholder": "Explica'm en què et puc ajudar...",
+    "send": "Enviar missatge",
+    "sending": "Enviant...",
+    "success": "Missatge enviat correctament. Gràcies, et respondré aviat!",
+    "error": "Hi ha hagut un error en enviar el missatge. Torna-ho a provar o escriu-me directament per correu.",
+    "notConfigured": "El formulari encara no està configurat. Mentrestant, pots escriure'm directament per correu o WhatsApp.",
+    "required": "Si us plau, omple tots els camps.",
+    "invalidEmail": "Si us plau, introdueix un correu electrònic vàlid."
+  },
+  "footer": {
+    "tagline": "Psicologia · acompanyament emocional",
+    "follow": "Segueix-me",
+    "rights": "Tots els drets reservats.",
+    "legal": "Avís legal i política de privacitat (placeholder)"
+  }
+}

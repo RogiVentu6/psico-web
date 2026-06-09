@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "inici": "Inicio",
+    "serveis": "Servicios",
+    "estudis": "Estudios",
+    "quiSoc": "Sobre mí",
+    "contacta": "Contacto",
+    "langLabel": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Psicóloga colegiada",
+    "title": "Patricia Ortiz",
+    "subtitle": "Psicología",
+    "tagline": "Un espacio seguro para cuidar tu mente y acompañarte en tu bienestar emocional.",
+    "intro": "Soy psicóloga y mi objetivo es ofrecerte un acompañamiento cercano, profesional y adaptado a ti. Trabajo con adolescentes y adultos que quieren entenderse mejor, gestionar sus emociones y recuperar el equilibrio.",
+    "cta": "Pide cita",
+    "ctaSecondary": "Conóceme",
+    "imageAlt": "Fotografía de Patricia Ortiz"
+  },
+  "serveis": {
+    "title": "Servicios",
+    "subtitle": "Cómo puedo ayudarte",
+    "intro": "Estos son algunos de los ámbitos en los que trabajo. Cada proceso es único y se adapta a tus necesidades.",
+    "items": {
+      "terapiaIndividual": {
+        "title": "Terapia individual",
+        "desc": "Acompañamiento personalizado para adultos en procesos de ansiedad, depresión, autoestima o momentos vitales difíciles."
+      },
+      "terapiaParella": {
+        "title": "Terapia de pareja",
+        "desc": "Un espacio para mejorar la comunicación, resolver conflictos y reconectar con tu pareja."
+      },
+      "ansietat": {
+        "title": "Ansiedad y estrés",
+        "desc": "Herramientas prácticas para gestionar la ansiedad, el estrés y los ataques de pánico en el día a día."
+      },
+      "diagnostic": {
+        "title": "Diagnóstico y evaluación",
+        "desc": "Evaluación psicológica rigurosa para entender qué te ocurre y diseñar el mejor plan de trabajo."
+      },
+      "adolescents": {
+        "title": "Adolescentes",
+        "desc": "Apoyo a adolescentes y a sus familias en la etapa de cambios, emociones y retos propios de la edad."
+      },
+      "online": {
+        "title": "Terapia online",
+        "desc": "Sesiones por videollamada, con la misma calidad y confidencialidad, desde donde tú quieras."
+      }
+    }
+  },
+  "estudis": {
+    "title": "Formación",
+    "subtitle": "Estudios y titulaciones",
+    "intro": "Mi formación académica y continua que sustenta mi práctica profesional.",
+    "items": {
+      "grau": {
+        "year": "20XX",
+        "title": "Grado en Psicología",
+        "place": "Universidad (placeholder)"
+      },
+      "master": {
+        "year": "20XX",
+        "title": "Máster en Psicología General Sanitaria",
+        "place": "Universidad (placeholder)"
+      },
+      "postgrau": {
+        "year": "20XX",
+        "title": "Posgrado en Terapia Cognitivo-Conductual",
+        "place": "Centro de formación (placeholder)"
+      },
+      "colegiada": {
+        "year": "20XX",
+        "title": "Colegiada núm. XXXXX",
+        "place": "Colegio Oficial de Psicología"
+      }
+    }
+  },
+  "quiSoc": {
+    "title": "Sobre mí",
+    "subtitle": "Un poco sobre mí",
+    "p1": "Me llamo Patricia Ortiz y soy psicóloga. Desde hace años acompaño a personas en su camino hacia el bienestar emocional, siempre desde el respeto, la escucha activa y la profesionalidad.",
+    "p2": "Creo en una terapia cercana y humana, donde te sientas escuchado y acompañado sin juicios. Mi enfoque combina diferentes corrientes terapéuticas para adaptarme a lo que cada persona necesita en cada momento.",
+    "p3": "Además de mi formación académica, me formo de manera continua en cursos y especializaciones para ofrecerte siempre las mejores herramientas basadas en la evidencia.",
+    "cursosTitle": "Cursos y especializaciones",
+    "cursos": {
+      "c1": "Curso de intervención en ansiedad y depresión (placeholder)",
+      "c2": "Especialización en terapia de pareja (placeholder)",
+      "c3": "Formación en mindfulness y regulación emocional (placeholder)",
+      "c4": "Curso de trauma y EMDR (placeholder)"
+    },
+    "imageAlt": "Fotografía de Patricia Ortiz en su despacho"
+  },
+  "contacta": {
+    "title": "Contacto",
+    "subtitle": "Hablemos",
+    "intro": "Si tienes cualquier duda o quieres pedir cita, puedes escribirme directamente o rellenar el formulario. Te responderé lo antes posible.",
+    "directTitle": "Contacto directo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "formTitle": "Envíame un mensaje",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "yourEmail": "Correo electrónico",
+    "emailPlaceholder": "tu-correo@ejemplo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntame en qué puedo ayudarte...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "Mensaje enviado correctamente. ¡Gracias, te responderé pronto!",
+    "error": "Ha habido un error al enviar el mensaje. Inténtalo de nuevo o escríbeme directamente por correo.",
+    "notConfigured": "El formulario aún no está configurado. Mientras tanto, puedes escribirme directamente por correo o WhatsApp.",
+    "required": "Por favor, rellena todos los campos.",
+    "invalidEmail": "Por favor, introduce un correo electrónico válido."
+  },
+  "footer": {
+    "tagline": "Psicología · acompañamiento emocional",
+    "follow": "Sígueme",
+    "rights": "Todos los derechos reservados.",
+    "legal": "Aviso legal y política de privacidad (placeholder)"
+  }
+}
