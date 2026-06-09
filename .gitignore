@@ -1,6 +1,8 @@
 node_modules
 dist
 dist-ssr
+.vite
+tsconfig.tsbuildinfo
 *.local
 .env
 .env.*
